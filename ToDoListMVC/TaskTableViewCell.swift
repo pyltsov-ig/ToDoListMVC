@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol CellDelegate { // протокол для того, чтобы можно было вызывать методы класса из TableViewController
+protocol CellDelegate { // протокол для того, чтобы можно было вызывать методы класса TaskTableViewCell из TableViewController
     func editCell(cell: TaskTableViewCell)
     func deleteCell(cell: TaskTableViewCell)
 }
